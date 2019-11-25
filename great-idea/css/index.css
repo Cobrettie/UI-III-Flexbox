@@ -78,7 +78,8 @@ nav {
 	display: flex;
 	align-items: center;
 	padding: 15px 0 15px 0;
-	background: rgba(136,136,136,.6);
+    background: #fff;
+	/* background: rgba(136,136,136,.6); */
 	/* position: fixed; */
 	/* top: 0; */
 	/* overflow: hidden; */
@@ -87,11 +88,11 @@ nav {
 nav a {
 	padding: 0 35px;
 	text-decoration: none;
-	color: #fff;
+	color:grey;
 }
 
 nav a:hover {
-	color: #000;
+	color: rgb(134, 134, 134);
 	transition-duration: 1s;
 	box-shadow: 0 1.5px dodgerblue;
 }
