@@ -197,11 +197,37 @@ footer {
 /* Mobile Phone */
 
 @media screen and (max-width: 600px) {
+
+	nav {
+		flex-direction: column-reverse;
+	}
+
+	nav a {
+		padding: 10px 0 10px;
+		text-align: center;
+		border-bottom: 1px solid black;
+		width: 100%;
+	}
+
+	nav a:nth-child(1) {
+		/* padding: 0; */
+	}
+
+	nav a:nth-child(7) {
+		border-bottom: none;
+	}
+
+	nav img {
+		margin-left: 0;
+		padding: 0 0 10px 0;
+	}
+
 	.main-cards-section {
 		flex-direction: column;
 	}
 
-	.content-card p {
-		color: red;
+	.content-card {
+		width: 100%;
 	}
+
 }
