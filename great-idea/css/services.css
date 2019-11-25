@@ -230,4 +230,17 @@ footer {
 		width: 100%;
 	}
 
+	.bottom-content-section {
+		flex-direction: column;
+	}
+
+	.bottom-content-text {
+		width: 100%;
+		padding: 0 0 40px 0;
+	}
+
+	.services-info-img {
+		width: 100%;
+	}
+
 }
